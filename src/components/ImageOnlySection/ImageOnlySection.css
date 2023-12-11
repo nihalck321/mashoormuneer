@@ -1,0 +1,10 @@
+/* .about__img{
+    height: 100% !important;
+} */
+
+.imageonly_section img{
+    object-fit: cover;
+}
+.ReactGridGallery_tile{
+    margin: 0 !important;
+}

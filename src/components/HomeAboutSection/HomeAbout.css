@@ -1,0 +1,67 @@
+.main_section {
+    background-color: black;
+    height: 60vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.main_sect {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+
+.main_sect p {
+    font-size: 40px;
+    color: white;
+}
+
+.about_description p {
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 520px) {
+    .main_sect p {
+        font-size: 18px;
+    }
+
+    .about_description p {
+        color: white;
+        font-size: 8px;
+    }
+
+    .filimtext::after {
+        content: "Filims";
+        position: absolute;
+        font-size: 28px;
+        color: white;
+        z-index: 9999;
+    }
+
+    .main__image a {
+        font-size: 40px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about_description p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .main_sect p {
+        font-size: 22px;
+    }
+
+    .main_sect {
+        margin-bottom: 30px;
+    }
+
+
+}

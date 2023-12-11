@@ -1,0 +1,99 @@
+.portfolio-img {
+  display: flex;
+  justify-content: flex-end;
+}
+/* .port-2 {
+  height: 90vh;
+} */
+
+.portfolio-content {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.portfolio-content h1 {
+  font-family: "Raleway-VariableFont_wght";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 94px;
+}
+
+.portfolio-content p {
+  font-family: "Fanwood Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 33px;
+}
+
+.pt_6{
+    padding-top: 20px;
+ }
+.ml_6 {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 1040px) {
+  .portfolio-img {
+    display: flex;
+    justify-content: center;
+  }
+  .ml_6 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992pc) {
+  .ml_6 {
+    margin-left: 12px;
+  }
+}
+
+.port__img-sect {
+  display: flex;
+}
+
+.portfolio-section1 {
+  justify-content: end;
+}
+
+.Port_section_bg {
+  background-color: #d6c8bb27;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.portfolio__arrow {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px){
+  .Port_section_bg .portfolio-img img{
+    height: 80vh !important;
+  }
+  
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 552px){
+.portfolio__arrow {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+  padding-bottom: 20px !important;
+}
+}

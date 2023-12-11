@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "FanwoodText-Italic";
+  src: url("fonts/FanwoodText-Italic.ttf");
+}
+@font-face {
+  font-family: "FanwoodText-Regular";
+  src: url("fonts/FanwoodText-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway-Italic-VariableFont_wght";
+  src: url("fonts/Raleway-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Raleway-VariableFont_wght";
+  src: url("fonts/Raleway-VariableFont_wght.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "FanwoodText-Regular", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background: #000; */
+  overflow: auto;
+  scroll-behavior: smooth;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h4,
+p,
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+  
+.row{
+  margin: 0 !important;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgba(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(14, 14, 14);
+  transition: 0.3s;
+}
+
+.section-extra {
+  padding-top: 80px !important;
+ 
+}
+@media (max-width: 768px) {
+  .section-extra {
+    padding-top: 140px !important;
+   
+  }
+}
+
+.hg_100{
+  height: 100vh;
+}
+
+@media screen and (max-width: 1040px) {
+  .section-extra {
+    padding-top: 40px !important;
+  }
+}
+

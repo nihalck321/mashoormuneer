@@ -1,0 +1,70 @@
+{
+  "name": "mashoor_muneer",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://nihalCk.github.io/mashoormuneer.com",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/montserrat": "^4.5.14",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.10.12",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0-beta1",
+    "framer-motion": "^7.6.2",
+    "gsap": "^3.11.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.0",
+    "react-gsap": "^3.2.1",
+    "react-icons": "^4.6.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-motion": "^0.5.2",
+    "react-player": "^2.11.2",
+    "react-remove-scroll-bar": "^2.3.4",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^8.4.4",
+    "transition": "^0.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}

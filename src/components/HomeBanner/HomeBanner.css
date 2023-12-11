@@ -1,0 +1,173 @@
+.slider img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.home-slider {
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+
+.slider {
+  background: #00000059;
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.329);
+    opacity: 0.8;
+  }
+
+.home-content {
+  width: auto;
+  height: 250px;
+
+  border-radius: 15px;
+  border: #fff;
+
+  padding-left: 48px;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  visibility: visible;
+  animation-delay: 1s;
+  animation-name: slideInRight;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/***** Home banner content *******/
+
+.home_banner-content {
+  width: auto;
+  height: 265px;
+  border-radius: 15px;
+  border: #fff;
+  padding-left: 48px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 136px;
+  z-index: 9;
+  left: 248px;
+}
+.home_banner-content p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.home_banner-content h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 94px;
+  color: #fff;
+  
+}
+
+@media screen and (max-width: 1040px) {
+    section {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .pa_tp-5 {
+      padding-top: 20px;
+    }
+    .home_banner-content {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 100px !important;
+      z-index: 9;
+      left: 50px !important;
+    }
+    .home_banner-content h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px !important;
+      line-height: 39px !important;
+      color: #fff;
+    }
+    .home_banner-content p {
+      color: #fff;
+      font-size: 18px !important;
+    }
+  }
+
+/********** home content animation ******************/
+
+.lettersspan,
+.lettersp,
+.lettersbutton {
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  padding-right: 0.11em;
+}
+h1.letters span.letter_1 {
+  position: relative;
+  display: inline-block;
+  animation-name: text-up;
+  animation-delay: 1s;
+  animation-duration: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-family: 'Raleway-VariableFont_wght';
+}
+h1.letters span.letter_2 {
+  position: relative;
+  display: inline-block;
+  animation-name: text-up;
+  animation-delay: 1.1s;
+  animation-duration: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+p.lettersp span.letter_1 {
+  position: relative;
+  display: inline-block;
+  animation-name: text-up;
+  animation-delay: 1.2s;
+  animation-duration: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.lettersbutton .letter_3 {
+  position: relative;
+  display: inline-block;
+  animation-name: text-up;
+  animation-delay: 1.3s;
+  animation-duration: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+@keyframes text-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 200%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+h1.letters {
+  overflow-y: hidden;
+}

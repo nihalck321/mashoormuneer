@@ -1,0 +1,81 @@
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .form-main {
+        margin-top: 20px;
+    }
+}
+
+.first-section {
+    display: flex;
+    gap: 100px;
+}
+
+.form-name-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+form input {
+    border: 2px solid #000;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "FanwoodText-Regular", sans-serif;
+}
+
+form label {
+    font-size: 22px;
+    font-family: "FanwoodText-Regular", sans-serif;
+}
+
+.message-box {
+    height: 200px;
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid #000;
+    font-size: 26px;
+    font-family: "FanwoodText-Regular", sans-serif;
+    padding: 10px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-btn {
+    width: 200px;
+    height: 60px;
+    border: 2px solid #000;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: darkkhaki;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
