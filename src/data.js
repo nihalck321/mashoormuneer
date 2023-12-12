@@ -4,7 +4,7 @@
 //   FaFacebookF,
 //   FaInstagram,
 //   FaPinterestP,
-//   FaDiscord,
+//   FaDiscord, 
 // } from 'react-icons/fa';
 // import images
 // import AboutImg from '../src/assets/img/about/plate.png';
